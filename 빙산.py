@@ -19,7 +19,6 @@ def bfs(x, y):
                     visited[nx][ny] = True
     return a
 
-
 N, M = map(int, sys.stdin.readline().split())
 
 dx = [0, 0, 1, -1]
